@@ -1,0 +1,28 @@
+{
+    "id": "07210703",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1720010259049.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "id": "84511a5bd0554432ac98902250a6c95f",
+        "name": "rep_anova",
+        "title": "rep_anova",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1720010251,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1720010259049,
+    "read_only": false,
+    "read_only_alternatives": []
+}

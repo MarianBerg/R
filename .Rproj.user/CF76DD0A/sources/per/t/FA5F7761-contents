@@ -1,0 +1,36 @@
+#Aufgabe: Datenmanagement in R
+#
+#a) Es liegen zwei Datensätze mit Informationen über Spotify Songs vor. Der erste Datensatz „Spotify music_data1.xls“ enthält Informationen zu den Songtiteln und den Künstlern. Der zweite Datensatz „Spotify music_data2.xls“ enthält Informationen zu den Charaktereigenschaften der Songs. Importiere beide Datensätze mithilfe eines Codes in R und speichere sie in einem Data Frame mit dem Namen „spotify1“ und „spotify2“. 
+#
+#Praxistipp
+#
+#
+#Stelle sicher, dass das richtige Arbeitsverzeichnis angeben ist, damit R den Datensatz korrekt laden kann.
+#
+#
+#
+#
+#
+#
+#b) Füge die Datensätze mit dem richtigen Befehl zum Datensatz "spotify_gesamt" zusammen.
+#
+#Praxistipp
+#
+#
+#Mit der Funktion View() können die Datensätze angeschaut werden und mit Summary() kannst du dir einen Überblick über die verschieden Variablen verschaffen. 
+
+#Hinweis: Bitte erstelle ein Dokument oder Ordner mit den Ergebnissen und lade diesen am Ende der Prüfungsaufgabe an der vorgesehenen Stelle hoch (Teilprüfungsleistung 1 (e-f)).
+
+library(tidyverse)
+library(readxl)
+
+setwd("G:/Programming/Projekte/Fortbildung/R/Teilprüfungsleistung1(a-b)/Spotify_data")
+spotify1 <- read_excel("Spotify music_data1.xlsx")
+View(spotify1)
+
+spotify2 <- read_excel("Spotify music_data2.xlsx")
+View(spotify2)
+
+spotify_gesamt <- spotify1 %>%
+  inner_join()
+

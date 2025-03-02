@@ -1,0 +1,28 @@
+{
+    "id": "0113E62B",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1719494498959.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "id": "d27e97c86dc54f6dba15c75add32b3c8",
+        "name": "table",
+        "title": "table",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 0,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1719494498959,
+    "read_only": false,
+    "read_only_alternatives": []
+}

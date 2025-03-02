@@ -1,0 +1,10 @@
+#c) Berechne den Kendall-Tau-Korrelationskoeffizienten (Variante b) zwischen den Variablen "len" und "dose" 
+#mit der Funktion "cor.test()". Führe auch einen Hypothesentest durch, um zu überprüfen, 
+#ob die Korrelation statistisch signifikant ist.
+
+
+
+
+
+#d) Berechne das 95%-Konfidenzintervall für den Kendall-Tau-Korrelationskoeffizienten 
+#mit der Funktion "KendallTauB()" aus dem DescTools-Paket. Interpretiere die Ergebnisse. 
